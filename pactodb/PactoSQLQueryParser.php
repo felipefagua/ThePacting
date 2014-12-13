@@ -6,7 +6,7 @@
  * Time: 18:38
  */
 
-class PactoSQLQuerys {
+class PactoSQLQueryParser {
     static public function SelectUserByName($playerName) {
         $strQuery = 'select *
                       from players
