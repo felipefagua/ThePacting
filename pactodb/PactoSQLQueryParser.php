@@ -7,10 +7,17 @@
  */
 
 class PactoSQLQueryParser {
-    static public function SelectUserByName($playerName) {
-        $strQuery = 'select *
-                      from players
-                      where players.playername = \''.$playerName.'\';';
+    static public function SelectPlayerByName($playerName) {
+        $strQuery = 'SELECT *
+                      FROM players
+                      WHERE players.playername = \''.$playerName.'\';';
+
+        return $strQuery;
+    }
+
+    static public function SelectPlayers() {
+        $strQuery = 'SELECT *
+                      FROM players;';
 
         return $strQuery;
     }
@@ -36,9 +43,23 @@ class PactoSQLQueryParser {
         return $strQuery;
     }
 
+    static public function UpdatePlayer($playerName, $newPlayerName, $newPlayerPassword) {
+        $strQuery = 'UPDATE players
+                      SET players.playername = '.$newPlayerName.',
+                         players.playerpassword = '.$newPlayerPassword.'
+                      WHERE players.playername = '.$playerName.';';
+        return $strQuery;
+    }
+
     static public function SavePlayerScore($playerId, $levelId, $score, $scoreTimeStamp) {
         $strQuery = 'INSERT INTO scores (userid, levelid, score, scoreTimeStamp)
                     VALUES ('.$playerId.', '.$levelId.', '.$score.', \''.$scoreTimeStamp.'\');';
+        return $strQuery;
+    }
+
+    static public function DeletePlayer($playerName) {
+        $strQuery = 'DELETE FROM players
+                      WHERE players.playername = \''.$playerName.'\';';
         return $strQuery;
     }
 

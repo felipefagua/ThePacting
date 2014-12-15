@@ -17,7 +17,7 @@ class PactoDBQuery {
 
         if (!$dbResource)
             $dbResource = null;
-        
+
         return $dbResource;
     }
 
@@ -28,10 +28,68 @@ class PactoDBQuery {
         return $dbResource;
     }
 
-    private static function SelectPlayerByName($playerName) {
+    // CRUD Player
+    public static function CreatePlayer($playerName, $playerPassword) {
+        $response = 'false';
         $dbResource = PactoDBQuery::GetDatabaseConnection();
-
+        $strQuery = PactoSQLQueryParser::SelectPlayerByName($playerName);
+        $queryResult = $dbResource->query($strQuery);
+        $numResults = $queryResult->num_rows;
+        if ($numResults==0)
+        {
+            $strQuery = PactoSQLQueryParser::InsertPlayer($playerName,$playerPassword);
+            $dbResource->query($strQuery);
+            $response = 'true';
+        }
         PactoDBQuery::CloseDatabaseConnection($dbResource);
+        return $response;
     }
 
+    public static function GetPlayer($playerName) {
+        $dbResource = PactoDBQuery::GetDatabaseConnection();
+        $strQuery = PactoSQLQueryParser::SelectPlayerByName($playerName);
+        $queryResult = $dbResource->query($strQuery);
+        PactoDBQuery::CloseDatabaseConnection($dbResource);
+        return $queryResult;
+    }
+
+    public static function GetAllPlayers() {
+        $dbResource = PactoDBQuery::GetDatabaseConnection();
+        $strQuery = PactoSQLQueryParser::SelectPlayers();
+        $queryResult = $dbResource->query($strQuery);
+        PactoDBQuery::CloseDatabaseConnection($dbResource);
+        return $queryResult;
+    }
+
+    public static function UpdatePlayer($playerName, $newPlayerName, $newPlayerPassword) {
+        $response = 'false';
+        $dbResource = PactoDBQuery::GetDatabaseConnection();
+        $strQuery = PactoSQLQueryParser::SelectPlayerByName($playerName);
+        $queryResult = $dbResource->query($strQuery);
+        $numResults = $queryResult->num_rows;
+        if ($numResults>0)
+        {
+            $strQuery = PactoSQLQueryParser::UpdatePlayer($playerName, $newPlayerName, $newPlayerPassword);
+            $dbResource->query($strQuery);
+            $response = 'true';
+        }
+        PactoDBQuery::CloseDatabaseConnection($dbResource);
+        return $response;
+    }
+
+    public static function DeletePlayer($playerName) {
+        $response = 'false';
+        $dbResource = PactoDBQuery::GetDatabaseConnection();
+        $strQuery = PactoSQLQueryParser::SelectPlayerByName($playerName);
+        $queryResult = $dbResource->query($strQuery);
+        $numResults = $queryResult->num_rows;
+        if ($numResults>0)
+        {
+            $strQuery = PactoSQLQueryParser::DeletePlayer($playerName);
+            $dbResource->query($strQuery);
+            $response = 'true';
+        }
+        PactoDBQuery::CloseDatabaseConnection($dbResource);
+        return $response;
+    }
 }
