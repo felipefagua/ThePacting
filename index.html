@@ -9,13 +9,29 @@
     <script>
 
         var model = {
-            user: "Pacto Admin",
-            players: [{ playerId: 1, playerName: "Felipe01", playerPassword: "Felipe01", exist: true},
-                    { playerId: 2, playerName: "Felipe02", playerPassword: "Felipe02", exist: true},
-                    { playerId: 3, playerName: "Felipe03", playerPassword: "Felipe03", exist: true},
-                    { playerId: 4, playerName: "Felipe04", playerPassword: "Felipe04", exist: true}]
+            user: "Pacto Admin"
         };
+
         var elPactoApp = angular.module("elPactoApp", []);
+
+        elPactoApp.run(function ($http) {
+            $http.get("data/mocks/players.json").success(function (data) {
+                model.players = data;
+            });
+        });
+
+        elPactoApp.filter("checkedPlayers", function () {
+            return function (players, showExisting) {
+                var resultsArr = [];
+                angular.forEach(players, function (player) {
+                    if (player.exist == false || showExisting == true) {
+                        resultsArr.push(player);
+                    }
+                });
+                return resultsArr;
+            }
+        });
+
         elPactoApp.controller("ElPactoCtrl", function ($scope) {
             $scope.elPacto = model;
 
@@ -31,8 +47,8 @@
                 return $scope.existCount() > 3 ? "label-success" : "label-warning";
             }
 
-            $scope.addNewPlayer = function (newPlayerId, newPlayerName, newPlayerPassword) {
-                $scope.elPacto.players.push({ playerId: newPlayerId, playerName: newPlayerName, playerPassword: newPlayerPassword, exist: true});
+            $scope.addNewPlayer = function (newPlayerId, newPlayerName, newPlayerPassword, newPlayerExist) {
+                $scope.elPacto.players.push({ playerId: newPlayerId, playerName: newPlayerName, playerPassword: newPlayerPassword, exist: newPlayerExist});
             }
         });
 
@@ -41,24 +57,19 @@
 <body ng-controller="ElPactoCtrl">
     <div class="page-header">
         <h1>El Pacto Back-end</h1>
-        <h1>
+        <h2>
             {{elPacto.user}}'s Player List
             <span class="label label-default" ng-class="warningLevel()"
                   ng-hide="existCount() == 0">
                 {{existCount()}}
             </span>
-        </h1>
+        </h2>
+    </div>
+    <div clase="checkbox-inline">
+        <label><input type="checkbox" ng_model="showExisting"> Show Existing</label>
     </div>
     <div class="panel">
-        <div class="input-group">
-            <input class="form-control" ng-model="newPlayerId"/>
-            <input class="form-control" ng-model="newPlayerName"/>
-            <input class="form-control" ng-model="newPlayerPassword"/>
-            <span class="input-group-btn">
-                <button class="btn btn-default"
-                        ng-click="addNewPlayer(newPlayerId, newPlayerName, newPlayerPassword)">Add</button>
-            </span>
-        </div>
+
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -69,14 +80,28 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="player in elPacto.players">
+                <tr ng-repeat="player in elPacto.players | checkedPlayers:showExisting | orderBy:'playerName'">
                     <td>{{player.playerId}}</td>
                     <td>{{player.playerName}}</td>
                     <td>{{player.playerPassword}}</td>
                     <td><input type="checkbox" ng-model="player.exist" /></td>
                 </tr>
+                <tr>
+                    <td><input class="form-control" ng-model="newPlayerId"/></td>
+                    <td><input class="form-control" ng-model="newPlayerName"/></td>
+                    <td><input class="form-control" ng-model="newPlayerPassword"/></td>
+                    <td><input type="checkbox" ng-model="newPlayerExist"/></td>
+                </tr>
+
             </tbody>
         </table>
+        <div class="input-group">
+            <span class="input-group-btn">
+                <button class="btn btn-success btn-block"
+                        ng-click="addNewPlayer(newPlayerId, newPlayerName, newPlayerPassword, newPlayerExist)">Add Player</button>
+            </span>
+        </div>
+
     </div>
 </body>
 </html>
