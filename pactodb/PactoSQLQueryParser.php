@@ -39,7 +39,7 @@ class PactoSQLQueryParser {
 
     static public function InsertPlayer($playerName,$playerPassword) {
         $strQuery = 'insert into players (playername, playerpassword)
-                      values (\''.$playerName.'\', \''.$playerPassword.'\')';
+                      values (\''.$playerName.'\', \''.$playerPassword.'\');';
         return $strQuery;
     }
 

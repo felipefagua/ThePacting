@@ -15,7 +15,7 @@
         var elPactoApp = angular.module("elPactoApp", []);
 
         elPactoApp.run(function ($http) {
-                $http.get("http://localhost/thepacting/pactows/pactorpcserver.php?action=getPlayersList").success(function (data) {
+                $http.get("http://192.99.144.250/thepacting/pactows/pactorpcserver.php?action=getPlayersList").success(function (data) {
                 console.log(data);
                 model.players = data;
             });
@@ -50,9 +50,9 @@
 
             $scope.addNewPlayer = function (newPlayerName, newPlayerPassword) {
                 console.log("function ("+newPlayerName+", "+newPlayerPassword+")");
-                $http.get("http://localhost/thepacting/pactows/pactorpcserver.php?action=createPlayer&playerName="+newPlayerName+"&playerPassword="+newPlayerPassword).success(function (data) {
+                $http.get("http://192.99.144.250/thepacting/pactows/pactorpcserver.php?action=createPlayer&playerName="+newPlayerName+"&playerPassword="+newPlayerPassword).success(function (data) {
                     console.log(data);
-                    $http.get("http://localhost/thepacting/pactows/pactorpcserver.php?action=getPlayersList").success(function (data) {
+                    $http.get("http://192.99.144.250/thepacting/pactows/pactorpcserver.php?action=getPlayersList").success(function (data) {
                         console.log(data);
                         $scope.elPacto.players = data;
                     });
