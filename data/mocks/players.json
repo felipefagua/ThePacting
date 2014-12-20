@@ -1,4 +1,4 @@
-[{ "playerId": 1, "playerName": "Felipe01", "playerPassword": "Felipe01", "exist": true},
-  { "playerId": 2, "playerName": "Felipe02", "playerPassword": "Felipe02", "exist": true},
-  { "playerId": 3, "playerName": "Felipe03", "playerPassword": "Felipe03", "exist": true},
-  { "playerId": 4, "playerName": "Felipe04", "playerPassword": "Felipe04", "exist": true}]
+[{ "playerId": 1, "playerName": "Felipe04", "playerPassword": "Felipe01"},
+  { "playerId": 2, "playerName": "Felipe04", "playerPassword": "Felipe02"},
+  { "playerId": 3, "playerName": "Felipe04", "playerPassword": "Felipe03"},
+  { "playerId": 4, "playerName": "Felipe04", "playerPassword": "Felipe04"}]

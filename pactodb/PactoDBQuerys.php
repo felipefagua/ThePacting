@@ -8,12 +8,12 @@
 
 class PactoDBQuery {
     private static $databaseHost = 'localhost';
-    private static $databaseName = 'el_pacto_game';
     private static $databaseUsername = 'pactoadmin';
     private static $databaseUserPassword = 'pactoadmin';
+    private static $databaseName = 'el_pacto_game';
 
     private static function GetDatabaseConnection() {
-        $dbResource = mysqli_connect(PactoDBQuery::$databaseHost, PactoDBQuery::$databaseUsername, PactoDBQuery::$databaseUserPassword, PactoDBQuery::$databaseName);
+        $dbResource = mysql_connect(PactoDBQuery::$databaseHost,PactoDBQuery::$databaseUsername,PactoDBQuery::$databaseUserPassword);
 
         if (!$dbResource)
             $dbResource = null;
@@ -30,16 +30,17 @@ class PactoDBQuery {
 
     // CRUD Player
     public static function CreatePlayer($playerName, $playerPassword) {
-        $response = 'false';
+        $response = false;
         $dbResource = PactoDBQuery::GetDatabaseConnection();
+        mysql_select_db(PactoDBQuery::$databaseName);
         $strQuery = PactoSQLQueryParser::SelectPlayerByName($playerName);
-        $queryResult = $dbResource->query($strQuery);
-        $numResults = $queryResult->num_rows;
+        $queryResult = mysql_query($strQuery, $dbResource);
+        $numResults = mysql_num_rows($queryResult);
         if ($numResults==0)
         {
             $strQuery = PactoSQLQueryParser::InsertPlayer($playerName,$playerPassword);
-            $dbResource->query($strQuery);
-            $response = 'true';
+            mysql_query($strQuery, $dbResource);
+            $response = true;
         }
         PactoDBQuery::CloseDatabaseConnection($dbResource);
         return $response;
@@ -53,11 +54,15 @@ class PactoDBQuery {
         return $queryResult;
     }
 
-    public static function GetAllPlayers() {
+    public static function GetPlayersList() {
         $dbResource = PactoDBQuery::GetDatabaseConnection();
-        $strQuery = PactoSQLQueryParser::SelectPlayers();
-        $queryResult = $dbResource->query($strQuery);
-        PactoDBQuery::CloseDatabaseConnection($dbResource);
+        mysql_select_db(PactoDBQuery::$databaseName);
+        $queryResult = null;
+        if ($dbResource != null) {
+            $strQuery = PactoSQLQueryParser::SelectPlayers();
+            $queryResult = mysql_query($strQuery, $dbResource);
+        }
+        //PactoDBQuery::CloseDatabaseConnection($dbResource);
         return $queryResult;
     }
 

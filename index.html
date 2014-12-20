@@ -15,7 +15,8 @@
         var elPactoApp = angular.module("elPactoApp", []);
 
         elPactoApp.run(function ($http) {
-            $http.get("data/mocks/players.json").success(function (data) {
+                $http.get("http://localhost/thepacting/pactows/pactorpcserver.php?action=getPlayersList").success(function (data) {
+                console.log(data);
                 model.players = data;
             });
         });
@@ -32,13 +33,13 @@
             }
         });
 
-        elPactoApp.controller("ElPactoCtrl", function ($scope) {
+        elPactoApp.controller("ElPactoCtrl", function ($scope, $http) {
             $scope.elPacto = model;
 
             $scope.existCount = function () {
                 var count = 0;
                 angular.forEach($scope.elPacto.players, function (item) {
-                    if (item.exist) { count++ }
+                    count++;
                 });
                 return count;
             }
@@ -47,8 +48,15 @@
                 return $scope.existCount() > 3 ? "label-success" : "label-warning";
             }
 
-            $scope.addNewPlayer = function (newPlayerId, newPlayerName, newPlayerPassword, newPlayerExist) {
-                $scope.elPacto.players.push({ playerId: newPlayerId, playerName: newPlayerName, playerPassword: newPlayerPassword, exist: newPlayerExist});
+            $scope.addNewPlayer = function (newPlayerName, newPlayerPassword) {
+                console.log("function ("+newPlayerName+", "+newPlayerPassword+")");
+                $http.get("http://localhost/thepacting/pactows/pactorpcserver.php?action=createPlayer&playerName="+newPlayerName+"&playerPassword="+newPlayerPassword).success(function (data) {
+                    console.log(data);
+                    $http.get("http://localhost/thepacting/pactows/pactorpcserver.php?action=getPlayersList").success(function (data) {
+                        console.log(data);
+                        $scope.elPacto.players = data;
+                    });
+                });
             }
         });
 
@@ -65,9 +73,6 @@
             </span>
         </h2>
     </div>
-    <div clase="checkbox-inline">
-        <label><input type="checkbox" ng_model="showExisting"> Show Existing</label>
-    </div>
     <div class="panel">
 
         <table class="table table-striped">
@@ -76,21 +81,18 @@
                     <th>Player's id</th>
                     <th>Player's name</th>
                     <th>Player's password</th>
-                    <th>Player exist</th>
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="player in elPacto.players | checkedPlayers:showExisting | orderBy:'playerName'">
+                <tr ng-repeat="player in elPacto.players">
                     <td>{{player.playerId}}</td>
                     <td>{{player.playerName}}</td>
                     <td>{{player.playerPassword}}</td>
-                    <td><input type="checkbox" ng-model="player.exist" /></td>
                 </tr>
                 <tr>
-                    <td><input class="form-control" ng-model="newPlayerId"/></td>
+                    <td>Id#</td>
                     <td><input class="form-control" ng-model="newPlayerName"/></td>
                     <td><input class="form-control" ng-model="newPlayerPassword"/></td>
-                    <td><input type="checkbox" ng-model="newPlayerExist"/></td>
                 </tr>
 
             </tbody>
@@ -98,7 +100,7 @@
         <div class="input-group">
             <span class="input-group-btn">
                 <button class="btn btn-success btn-block"
-                        ng-click="addNewPlayer(newPlayerId, newPlayerName, newPlayerPassword, newPlayerExist)">Add Player</button>
+                        ng-click="addNewPlayer(newPlayerName, newPlayerPassword)">Add Player</button>
             </span>
         </div>
 
