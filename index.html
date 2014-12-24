@@ -16,7 +16,10 @@
 
         elPactoApp.run(function ($http) {
                 $http.get("data/config/server_config.json").success(function (serverData) {
-                    $http.get(serverData.host + serverData.path + "?action=getPlayersList").success(function (data) {
+                    model.serverData = serverData;
+                    var httpRequest = model.serverData.host + model.serverData.path + "?action=getPlayersList";
+                    console.log(httpRequest);
+                    $http.get(httpRequest).success(function (data) {
                         console.log(data);
                         model.players = data;
                 });
@@ -52,9 +55,10 @@
 
             $scope.addNewPlayer = function (newPlayerName, newPlayerPassword) {
                 console.log("function ("+newPlayerName+", "+newPlayerPassword+")");
-                $http.get("http://192.99.144.250/thepacting/pactows/pactorpcserver.php?action=createPlayer&playerName="+newPlayerName+"&playerPassword="+newPlayerPassword).success(function (data) {
+                var httpRequest = $scope.elPacto.serverData.host + $scope.elPacto.serverData.path;
+                $http.get(httpRequest+"?action=createPlayer&playerName="+newPlayerName+"&playerPassword="+newPlayerPassword).success(function (data) {
                     console.log(data);
-                    $http.get("http://192.99.144.250/thepacting/pactows/pactorpcserver.php?action=getPlayersList").success(function (data) {
+                    $http.get(httpRequest+"?action=getPlayersList").success(function (data) {
                         console.log(data);
                         $scope.elPacto.players = data;
                     });

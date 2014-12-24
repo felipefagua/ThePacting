@@ -10,6 +10,7 @@ include("../pactodb/PactoSQLQueryParser.php");
 
 class PactoLib {
 
+    // Player's CRUD
     public function createPlayer($playerName, $playerPassword) {
         $result = PactoDBQuery::CreatePlayer($playerName,$playerPassword);
         return array("result" => $result);
@@ -30,10 +31,27 @@ class PactoLib {
         return $arrResult;
     }
 
-    public function deletePlayer($playerName) {
-
+    public function getPlayer($playerName) {
+        $result = PactoDBQuery::GetPlayer($playerName);
+        $row = mysql_fetch_row($result);
+        $keys = array("playerId","playerName","playerPassword");
+        $values = array($row[0],$row[1],$row[2]);
+        $arrResult = PactoLib::ParseKeyValueArray($keys, $values);
+        return $arrResult;
     }
 
+    public function updatePlayer($playerName, $newPlayerPassword) {
+        $result = PactoDBQuery::UpdatePlayer($playerName, $playerName, $newPlayerPassword);
+        return array("result" => $result);
+    }
+
+    public function deletePlayer($playerName) {
+        $result = PactoDBQuery::DeletePlayer($playerName);
+        return array("result" => $result);
+    }
+
+
+    //Util
     private static function ParseKeyValueArray($keysArray, $valuesArray) {
         $keyValueArray = array();
         $m = min(count($keysArray), count($valuesArray));

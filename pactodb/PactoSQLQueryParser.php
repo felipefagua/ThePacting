@@ -45,9 +45,9 @@ class PactoSQLQueryParser {
 
     static public function UpdatePlayer($playerName, $newPlayerName, $newPlayerPassword) {
         $strQuery = 'UPDATE players
-                      SET players.playername = '.$newPlayerName.',
-                         players.playerpassword = '.$newPlayerPassword.'
-                      WHERE players.playername = '.$playerName.';';
+                      SET players.playername = \''.$newPlayerName.'\',
+                         players.playerpassword = \''.$newPlayerPassword.'\'
+                      WHERE players.playername = \''.$playerName.'\';';
         return $strQuery;
     }
 

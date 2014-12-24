@@ -12,18 +12,30 @@ error_reporting(E_ERROR | E_PARSE);
 
 if (isset($_GET['action'])) {
     switch($_GET['action']) {
-        case "getPlayersList":
-            $data = $lib->getPlayersList();
-            break;
+        //Player's CRUD
         case "createPlayer":
             $data = $lib->createPlayer(
                 filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING),
                 filter_input(INPUT_GET, 'playerPassword', FILTER_SANITIZE_STRING)
             );
             break;
-        case "getUser":
-            $data = $lib->getUser(
-                filter_input(INPUT_GET, 'name', FILTER_SANITIZE_STRING)
+        case "getPlayersList":
+            $data = $lib->getPlayersList();
+            break;
+        case "getPlayer":
+            $data = $lib->getPlayer(
+                filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING)
+            );
+            break;
+        case "updatePlayer":
+            $data = $lib->updatePlayer(
+                filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING),
+                filter_input(INPUT_GET, 'playerPassword', FILTER_SANITIZE_STRING)
+            );
+            break;
+        case "deletePlayer":
+            $data = $lib->deletePlayer(
+                filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING)
             );
             break;
         default:
