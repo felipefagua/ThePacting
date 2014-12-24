@@ -15,9 +15,11 @@
         var elPactoApp = angular.module("elPactoApp", []);
 
         elPactoApp.run(function ($http) {
-                $http.get("http://192.99.144.250/thepacting/pactows/pactorpcserver.php?action=getPlayersList").success(function (data) {
-                console.log(data);
-                model.players = data;
+                $http.get("data/config/server_config.json").success(function (serverData) {
+                    $http.get(serverData.host + serverData.path + "?action=getPlayersList").success(function (data) {
+                        console.log(data);
+                        model.players = data;
+                });
             });
         });
 

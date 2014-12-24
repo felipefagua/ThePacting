@@ -28,8 +28,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51342285" vertical-offset="0" max-vertical-offset="1938">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.3137584" vertical-offset="0" max-vertical-offset="1972">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server_config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/config/server_config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -38,7 +48,7 @@
       <file leaf-file-name="PactoDBQuerys.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pactodb/PactoDBQuerys.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-50.346153" vertical-offset="0" max-vertical-offset="1700">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="1700">
               <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
               <folding />
             </state>
@@ -48,11 +58,9 @@
       <file leaf-file-name="PactoDBTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pactodb/PactoDBTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
+            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
               <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding>
-                <marker date="1419016173715" expanded="true" signature="214:235" placeholder="SELECT * FRO..players..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +68,8 @@
       <file leaf-file-name="PactoSQLQueryParser.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pactodb/PactoSQLQueryParser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-32.692307" vertical-offset="0" max-vertical-offset="1462">
-              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1462">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
                 <element signature="n#InsertPlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -72,24 +80,6 @@
                 <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
                 <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
                 <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-                <marker date="1419016328918" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-                <marker date="1419016328918" expanded="true" signature="416:459" placeholder="SELECT * FRO..players..." />
-                <marker date="1419016328918" expanded="true" signature="573:661" placeholder="select * fro..levels..." />
-                <marker date="1419016328918" expanded="true" signature="792:1013" placeholder="select playe..players..." />
-                <marker date="1419016328918" expanded="true" signature="1142:1266" placeholder="insert into ..." />
-                <marker date="1419016328918" expanded="true" signature="1415:1619" placeholder="UPDATE playe..." />
-                <marker date="1419016328918" expanded="true" signature="1783:1936" placeholder="INSERT INTO ..." />
-                <marker date="1419016328918" expanded="true" signature="2049:2137" placeholder="DELETE FROM ..." />
-                <marker date="1419016328918" expanded="true" signature="2266:2352" placeholder="INSERT INTO ..." />
-                <marker date="1419016328918" expanded="true" signature="2481:2624" placeholder="UPDATE playe..." />
-                <marker date="1419016328918" expanded="true" signature="2754:2994" placeholder="SELECT playe..players..." />
-                <marker date="1419016328918" expanded="true" signature="3144:3439" placeholder="SELECT FROM players..." />
-                <marker date="1419016328918" expanded="true" signature="3557:4023" placeholder="SELECT level..scores..." />
-                <marker date="1419016328918" expanded="true" signature="3833:3976" placeholder="SELECT MAX(s..scores..." />
-                <marker date="1419016328918" expanded="true" signature="4173:4732" placeholder="SELECT level..scores..." />
-                <marker date="1419016328918" expanded="true" signature="4449:4592" placeholder="SELECT MAX(s..scores..." />
-                <marker date="1419016328918" expanded="true" signature="4850:5306" placeholder="SELECT level..scores..." />
-                <marker date="1419016328918" expanded="true" signature="5458:6007" placeholder="SELECT level..scores..." />
               </folding>
             </state>
           </provider>
@@ -117,6 +107,7 @@
         <option value="$PROJECT_DIR$/pactodb/PactoDBTest.php" />
         <option value="$PROJECT_DIR$/pactodb/PactoSQLQueryParser.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/data/config/server_config.json" />
       </list>
     </option>
   </component>
@@ -201,6 +192,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThePacting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThePacting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,25 +311,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31362197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33262935" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14270833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14270833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31362197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33262935" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2280887" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -352,6 +361,90 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pactodb/PactoDBQuerys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="1700">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pactodb/PactoDBTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pactodb/PactoSQLQueryParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1462">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="n#InsertPlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#UpdatePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pactodb/PactoDBQuerys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="1700">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pactodb/PactoDBTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pactodb/PactoSQLQueryParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1462">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="n#InsertPlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#UpdatePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pactodb/PactoDBQuerys.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
@@ -374,24 +467,6 @@
             <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1419016328918" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="416:459" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="573:661" placeholder="select * fro..levels..." />
-            <marker date="1419016328918" expanded="true" signature="792:1013" placeholder="select playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="1142:1266" placeholder="insert into ..." />
-            <marker date="1419016328918" expanded="true" signature="1415:1619" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="1783:1936" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2049:2137" placeholder="DELETE FROM ..." />
-            <marker date="1419016328918" expanded="true" signature="2266:2352" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2481:2624" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="2754:2994" placeholder="SELECT playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="3144:3439" placeholder="SELECT FROM players..." />
-            <marker date="1419016328918" expanded="true" signature="3557:4023" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="3833:3976" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4173:4732" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4449:4592" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4850:5306" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="5458:6007" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -410,24 +485,6 @@
             <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1419016328918" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="416:459" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="573:661" placeholder="select * fro..levels..." />
-            <marker date="1419016328918" expanded="true" signature="792:1013" placeholder="select playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="1142:1266" placeholder="insert into ..." />
-            <marker date="1419016328918" expanded="true" signature="1415:1619" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="1783:1936" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2049:2137" placeholder="DELETE FROM ..." />
-            <marker date="1419016328918" expanded="true" signature="2266:2352" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2481:2624" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="2754:2994" placeholder="SELECT playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="3144:3439" placeholder="SELECT FROM players..." />
-            <marker date="1419016328918" expanded="true" signature="3557:4023" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="3833:3976" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4173:4732" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4449:4592" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4850:5306" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="5458:6007" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -446,24 +503,6 @@
             <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1419016328918" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="416:459" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="573:661" placeholder="select * fro..levels..." />
-            <marker date="1419016328918" expanded="true" signature="792:1013" placeholder="select playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="1142:1266" placeholder="insert into ..." />
-            <marker date="1419016328918" expanded="true" signature="1415:1619" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="1783:1936" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2049:2137" placeholder="DELETE FROM ..." />
-            <marker date="1419016328918" expanded="true" signature="2266:2352" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2481:2624" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="2754:2994" placeholder="SELECT playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="3144:3439" placeholder="SELECT FROM players..." />
-            <marker date="1419016328918" expanded="true" signature="3557:4023" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="3833:3976" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4173:4732" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4449:4592" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4850:5306" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="5458:6007" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -482,24 +521,6 @@
             <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1419016328918" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="416:459" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="573:661" placeholder="select * fro..levels..." />
-            <marker date="1419016328918" expanded="true" signature="792:1013" placeholder="select playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="1142:1266" placeholder="insert into ..." />
-            <marker date="1419016328918" expanded="true" signature="1415:1619" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="1783:1936" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2049:2137" placeholder="DELETE FROM ..." />
-            <marker date="1419016328918" expanded="true" signature="2266:2352" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2481:2624" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="2754:2994" placeholder="SELECT playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="3144:3439" placeholder="SELECT FROM players..." />
-            <marker date="1419016328918" expanded="true" signature="3557:4023" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="3833:3976" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4173:4732" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4449:4592" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4850:5306" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="5458:6007" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -532,24 +553,6 @@
             <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1419016328918" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="416:459" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="573:661" placeholder="select * fro..levels..." />
-            <marker date="1419016328918" expanded="true" signature="792:1013" placeholder="select playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="1142:1266" placeholder="insert into ..." />
-            <marker date="1419016328918" expanded="true" signature="1415:1619" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="1783:1936" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2049:2137" placeholder="DELETE FROM ..." />
-            <marker date="1419016328918" expanded="true" signature="2266:2352" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2481:2624" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="2754:2994" placeholder="SELECT playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="3144:3439" placeholder="SELECT FROM players..." />
-            <marker date="1419016328918" expanded="true" signature="3557:4023" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="3833:3976" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4173:4732" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4449:4592" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4850:5306" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="5458:6007" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -589,24 +592,6 @@
             <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1419016328918" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="416:459" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="573:661" placeholder="select * fro..levels..." />
-            <marker date="1419016328918" expanded="true" signature="792:1013" placeholder="select playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="1142:1266" placeholder="insert into ..." />
-            <marker date="1419016328918" expanded="true" signature="1415:1619" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="1783:1936" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2049:2137" placeholder="DELETE FROM ..." />
-            <marker date="1419016328918" expanded="true" signature="2266:2352" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2481:2624" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="2754:2994" placeholder="SELECT playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="3144:3439" placeholder="SELECT FROM players..." />
-            <marker date="1419016328918" expanded="true" signature="3557:4023" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="3833:3976" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4173:4732" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4449:4592" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4850:5306" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="5458:6007" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -646,24 +631,6 @@
             <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1419016328918" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="416:459" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="573:661" placeholder="select * fro..levels..." />
-            <marker date="1419016328918" expanded="true" signature="792:1013" placeholder="select playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="1142:1266" placeholder="insert into ..." />
-            <marker date="1419016328918" expanded="true" signature="1415:1619" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="1783:1936" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2049:2137" placeholder="DELETE FROM ..." />
-            <marker date="1419016328918" expanded="true" signature="2266:2352" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2481:2624" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="2754:2994" placeholder="SELECT playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="3144:3439" placeholder="SELECT FROM players..." />
-            <marker date="1419016328918" expanded="true" signature="3557:4023" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="3833:3976" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4173:4732" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4449:4592" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4850:5306" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="5458:6007" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -703,24 +670,6 @@
             <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1419016328918" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="416:459" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="573:661" placeholder="select * fro..levels..." />
-            <marker date="1419016328918" expanded="true" signature="792:1013" placeholder="select playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="1142:1266" placeholder="insert into ..." />
-            <marker date="1419016328918" expanded="true" signature="1415:1619" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="1783:1936" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2049:2137" placeholder="DELETE FROM ..." />
-            <marker date="1419016328918" expanded="true" signature="2266:2352" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2481:2624" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="2754:2994" placeholder="SELECT playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="3144:3439" placeholder="SELECT FROM players..." />
-            <marker date="1419016328918" expanded="true" signature="3557:4023" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="3833:3976" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4173:4732" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4449:4592" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4850:5306" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="5458:6007" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -750,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,14 +706,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34228188" vertical-offset="0" max-vertical-offset="596">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pactodb/PactoSQLQueryParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.692307" vertical-offset="0" max-vertical-offset="1462">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1462">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
             <element signature="n#InsertPlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -776,50 +723,46 @@
             <element signature="n#SelectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#SelectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1419016328918" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="416:459" placeholder="SELECT * FRO..players..." />
-            <marker date="1419016328918" expanded="true" signature="573:661" placeholder="select * fro..levels..." />
-            <marker date="1419016328918" expanded="true" signature="792:1013" placeholder="select playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="1142:1266" placeholder="insert into ..." />
-            <marker date="1419016328918" expanded="true" signature="1415:1619" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="1783:1936" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2049:2137" placeholder="DELETE FROM ..." />
-            <marker date="1419016328918" expanded="true" signature="2266:2352" placeholder="INSERT INTO ..." />
-            <marker date="1419016328918" expanded="true" signature="2481:2624" placeholder="UPDATE playe..." />
-            <marker date="1419016328918" expanded="true" signature="2754:2994" placeholder="SELECT playe..players..." />
-            <marker date="1419016328918" expanded="true" signature="3144:3439" placeholder="SELECT FROM players..." />
-            <marker date="1419016328918" expanded="true" signature="3557:4023" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="3833:3976" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4173:4732" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4449:4592" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1419016328918" expanded="true" signature="4850:5306" placeholder="SELECT level..scores..." />
-            <marker date="1419016328918" expanded="true" signature="5458:6007" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pactodb/PactoDBTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
           <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <marker date="1419016173715" expanded="true" signature="214:235" placeholder="SELECT * FRO..players..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pactodb/PactoDBQuerys.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-50.346153" vertical-offset="0" max-vertical-offset="1700">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="1700">
           <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mocks/players.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="153">
+          <caret line="0" column="73" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/config/server_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51342285" vertical-offset="0" max-vertical-offset="1938">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.3137584" vertical-offset="0" max-vertical-offset="1972">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding />
         </state>
       </provider>
