@@ -12,12 +12,12 @@ class PactoLib {
 
     // Player's CRUD
     public function createPlayer($playerName, $playerPassword) {
-        $result = PactoDBQuery::CreatePlayer($playerName,$playerPassword);
+        $result = PactoDBQuery::createPlayer($playerName,$playerPassword);
         return array("result" => $result);
     }
 
     public function getPlayersList() {
-        $result = PactoDBQuery::GetPlayersList();
+        $result = PactoDBQuery::getPlayersList();
         $numResults =  mysql_num_rows($result);
         $arrResult = array();
 
@@ -32,7 +32,7 @@ class PactoLib {
     }
 
     public function getPlayer($playerName) {
-        $result = PactoDBQuery::GetPlayer($playerName);
+        $result = PactoDBQuery::getPlayer($playerName);
         $row = mysql_fetch_row($result);
         $keys = array("playerId","playerName","playerPassword");
         $values = array($row[0],$row[1],$row[2]);
@@ -41,12 +41,12 @@ class PactoLib {
     }
 
     public function updatePlayer($playerName, $newPlayerPassword) {
-        $result = PactoDBQuery::UpdatePlayer($playerName, $playerName, $newPlayerPassword);
+        $result = PactoDBQuery::updatePlayer($playerName, $playerName, $newPlayerPassword);
         return array("result" => $result);
     }
 
     public function deletePlayer($playerName) {
-        $result = PactoDBQuery::DeletePlayer($playerName);
+        $result = PactoDBQuery::deletePlayer($playerName);
         return array("result" => $result);
     }
 

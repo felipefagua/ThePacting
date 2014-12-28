@@ -7,7 +7,7 @@
  */
 
 class PactoSQLQueryParser {
-    static public function SelectPlayerByName($playerName) {
+    static public function selectPlayerByName($playerName) {
         $strQuery = 'SELECT *
                       FROM players
                       WHERE players.playername = \''.$playerName.'\';';
@@ -15,35 +15,27 @@ class PactoSQLQueryParser {
         return $strQuery;
     }
 
-    static public function SelectPlayers() {
+    static public function getPlayerId($playerName) {
+        $strQuery = 'SELECT players.playerid
+                      FROM players
+                      WHERE players.playername = \''.$playerName.'\';';
+        return $strQuery;
+    }
+
+    static public function selectPlayers() {
         $strQuery = 'SELECT *
                       FROM players;';
 
         return $strQuery;
     }
 
-    static public function SelectLevelById($levelId) {
-        $strQuery = 'select *
-                      from levels
-                      where levels.levelid = '.$levelId.';';
-        return $strQuery;
-    }
-
-    static public function SelectPlayerProgress($playerId) {
-        $strQuery = 'select player_progress.levelid
-                      from players, player_progress
-                      where players.playerid = player_progress.playerid
-                        and players.playername = \''.$playerId.'\';';
-        return $strQuery;
-    }
-
-    static public function InsertPlayer($playerName,$playerPassword) {
+    static public function insertPlayer($playerName,$playerPassword) {
         $strQuery = 'insert into players (playername, playerpassword)
                       values (\''.$playerName.'\', \''.$playerPassword.'\');';
         return $strQuery;
     }
 
-    static public function UpdatePlayer($playerName, $newPlayerName, $newPlayerPassword) {
+    static public function updatePlayer($playerName, $newPlayerName, $newPlayerPassword) {
         $strQuery = 'UPDATE players
                       SET players.playername = \''.$newPlayerName.'\',
                          players.playerpassword = \''.$newPlayerPassword.'\'
@@ -51,32 +43,47 @@ class PactoSQLQueryParser {
         return $strQuery;
     }
 
-    static public function SavePlayerScore($playerId, $levelId, $score, $scoreTimeStamp) {
-        $strQuery = 'INSERT INTO scores (userid, levelid, score, scoreTimeStamp)
-                    VALUES ('.$playerId.', '.$levelId.', '.$score.', \''.$scoreTimeStamp.'\');';
-        return $strQuery;
-    }
-
-    static public function DeletePlayer($playerName) {
+    static public function deletePlayer($playerName) {
         $strQuery = 'DELETE FROM players
                       WHERE players.playername = \''.$playerName.'\';';
         return $strQuery;
     }
 
-    static public function InsertPlayerProgress($playerId, $levelId) {
+    static public function savePlayerScore($playerId, $levelId, $score, $scoreTimeStamp) {
+        $strQuery = 'INSERT INTO scores (userid, levelid, score, scoreTimeStamp)
+                    VALUES ('.$playerId.', '.$levelId.', '.$score.', \''.$scoreTimeStamp.'\');';
+        return $strQuery;
+    }
+
+    static public function selectLevelById($levelId) {
+        $strQuery = 'select *
+                      from levels
+                      where levels.levelid = '.$levelId.';';
+        return $strQuery;
+    }
+
+    static public function selectPlayerProgress($playerId) {
+        $strQuery = 'select player_progress.levelid
+                      from players, player_progress
+                      where players.playerid = player_progress.playerid
+                        and players.playername = \''.$playerId.'\';';
+        return $strQuery;
+    }
+
+    static public function insertPlayerProgress($playerId, $levelId) {
         $strQuery = 'INSERT INTO player_progress
                       VALUES ('.$playerId.', '.$levelId.');';
         return $strQuery;
     }
 
-    static public function UpdatePlayerProgress($playerId, $levelId) {
+    static public function updatePlayerProgress($playerId, $levelId) {
         $strQuery = 'UPDATE player_progress
                       SET player_progress.levelid = '.$levelId.'
                       WHERE player_progress.playerid = '.$playerId.';';
         return $strQuery;
     }
 
-    static public function SelectScoresByLevel($levelId) {
+    static public function selectScoresByLevel($levelId) {
         $strQuery = 'SELECT players.playername, scores.score
                       FROM players, scores
                       WHERE players.playerid = scores.userid
@@ -85,7 +92,7 @@ class PactoSQLQueryParser {
         return $strQuery;
     }
 
-    static public function SelectScoresByLevelBetweenDates($levelId, $startDate, $endDate) {
+    static public function selectScoresByLevelBetweenDates($levelId, $startDate, $endDate) {
         $strQuery = 'SELECT FROM players, scores
                       WHERE players.playerid = scores.userid
                         AND scores.levelid = '.$levelId.'
@@ -94,7 +101,7 @@ class PactoSQLQueryParser {
         return $strQuery;
     }
 
-    static public function SelectTopScoresFromEachLevel() {
+    static public function selectTopScoresFromEachLevel() {
         $strQuery = 'SELECT levels.levelid, levels.levelname, players.playername, score
                       FROM scores, levels, players
                       WHERE levels.levelid = scores.levelid
@@ -106,7 +113,7 @@ class PactoSQLQueryParser {
         return $strQuery;
     }
 
-    static public function SelectTopScoresFromEachLevelBetweenDates($startDate, $endDate) {
+    static public function selectTopScoresFromEachLevelBetweenDates($startDate, $endDate) {
         $strQuery = 'SELECT levels.levelid, levels.levelname, players.playername, score
                       FROM scores, levels, players
                       WHERE levels.levelid = scores.levelid
@@ -119,7 +126,7 @@ class PactoSQLQueryParser {
         return $strQuery;
     }
 
-    static public function SelectLevelTopScores($levelId) {
+    static public function selectLevelTopScores($levelId) {
         $strQuery = 'SELECT levels.levelid, levels.levelname, players.playername, score
                       FROM scores, levels, players
                       WHERE levels.levelid = '.$levelId.'
@@ -131,7 +138,7 @@ class PactoSQLQueryParser {
         return $strQuery;
     }
 
-    static public function SelectLevelTopScoresBetweenDates($levelId, $startDate, $endDate) {
+    static public function selectLevelTopScoresBetweenDates($levelId, $startDate, $endDate) {
         $strQuery = 'SELECT levels.levelid, levels.levelname, players.playername, score
                       FROM scores, levels, players
                       WHERE levels.levelid = '.$levelId.'

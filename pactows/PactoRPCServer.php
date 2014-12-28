@@ -38,6 +38,7 @@ if (isset($_GET['action'])) {
                 filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING)
             );
             break;
+
         default:
             http_response_code(400);
             $data = array("error" => "bad request");

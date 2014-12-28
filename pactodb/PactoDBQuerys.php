@@ -12,7 +12,7 @@ class PactoDBQuery {
     private static $databaseUserPassword = 'pactoadmin';
     private static $databaseName = 'el_pacto_game';
 
-    private static function GetDatabaseConnection() {
+    private static function getDatabaseConnection() {
         $dbResource = mysql_connect(PactoDBQuery::$databaseHost,PactoDBQuery::$databaseUsername,PactoDBQuery::$databaseUserPassword);
 
         if (!$dbResource)
@@ -21,82 +21,92 @@ class PactoDBQuery {
         return $dbResource;
     }
 
-    private static function CloseDatabaseConnection($dbResource) {
+    private static function closeDatabaseConnection($dbResource) {
         if ($dbResource != null)
             mysql_close($dbResource);
 
         return $dbResource;
     }
 
-    // CRUD Player
-    public static function CreatePlayer($playerName, $playerPassword) {
+    // Basic Player's CRUD
+    public static function createPlayer($playerName, $playerPassword) {
         $response = false;
-        $dbResource = PactoDBQuery::GetDatabaseConnection();
+        $dbResource = PactoDBQuery::getDatabaseConnection();
         mysql_select_db(PactoDBQuery::$databaseName);
-        $strQuery = PactoSQLQueryParser::SelectPlayerByName($playerName);
-        $queryResult = mysql_query($strQuery, $dbResource);
-        $numResults = mysql_num_rows($queryResult);
-        if ($numResults==0)
+        if (!PactoDBQuery::playerExist($playerName, $dbResource))
         {
-            $strQuery = PactoSQLQueryParser::InsertPlayer($playerName,$playerPassword);
+            $strQuery = PactoSQLQueryParser::insertPlayer($playerName,$playerPassword);
             mysql_query($strQuery, $dbResource);
             $response = true;
         }
-        PactoDBQuery::CloseDatabaseConnection($dbResource);
+        PactoDBQuery::closeDatabaseConnection($dbResource);
         return $response;
     }
 
-    public static function GetPlayer($playerName) {
-        $dbResource = PactoDBQuery::GetDatabaseConnection();
+    public static function getPlayer($playerName) {
+        $dbResource = PactoDBQuery::getDatabaseConnection();
         mysql_select_db(PactoDBQuery::$databaseName);
-        $strQuery = PactoSQLQueryParser::SelectPlayerByName($playerName);
+        $strQuery = PactoSQLQueryParser::selectPlayerByName($playerName);
         $queryResult = mysql_query($strQuery, $dbResource);
-        PactoDBQuery::CloseDatabaseConnection($dbResource);
+        PactoDBQuery::closeDatabaseConnection($dbResource);
         return $queryResult;
     }
 
-    public static function GetPlayersList() {
-        $dbResource = PactoDBQuery::GetDatabaseConnection();
+    public static function getPlayersList() {
+        $dbResource = PactoDBQuery::getDatabaseConnection();
         mysql_select_db(PactoDBQuery::$databaseName);
         $queryResult = null;
         if ($dbResource != null) {
-            $strQuery = PactoSQLQueryParser::SelectPlayers();
+            $strQuery = PactoSQLQueryParser::selectPlayers();
             $queryResult = mysql_query($strQuery, $dbResource);
         }
-        PactoDBQuery::CloseDatabaseConnection($dbResource);
+        PactoDBQuery::closeDatabaseConnection($dbResource);
         return $queryResult;
     }
 
-    public static function UpdatePlayer($playerName, $newPlayerName, $newPlayerPassword) {
+    public static function updatePlayer($playerName, $newPlayerName, $newPlayerPassword) {
         $response = 'false';
-        $dbResource = PactoDBQuery::GetDatabaseConnection();
+        $dbResource = PactoDBQuery::getDatabaseConnection();
         mysql_select_db(PactoDBQuery::$databaseName);
-        $strQuery = PactoSQLQueryParser::SelectPlayerByName($playerName);
-        $queryResult = mysql_query($strQuery,$dbResource);
-        $numResults = mysql_num_rows($queryResult);
-        if ($numResults>0) {
-            $strQuery2 = PactoSQLQueryParser::UpdatePlayer($playerName, $newPlayerName, $newPlayerPassword);
+        if (PactoDBQuery::playerExist($playerName, $dbResource)) {
+            $strQuery2 = PactoSQLQueryParser::updatePlayer($playerName, $newPlayerName, $newPlayerPassword);
             mysql_query($strQuery2,$dbResource);
             $response = 'true';
         }
-        PactoDBQuery::CloseDatabaseConnection($dbResource);
+        PactoDBQuery::closeDatabaseConnection($dbResource);
         return $response;
     }
 
-    public static function DeletePlayer($playerName) {
+    public static function deletePlayer($playerName) {
         $response = 'false';
-        $dbResource = PactoDBQuery::GetDatabaseConnection();
+        $dbResource = PactoDBQuery::getDatabaseConnection();
         mysql_select_db(PactoDBQuery::$databaseName);
-        $strQuery = PactoSQLQueryParser::SelectPlayerByName($playerName);
-        $queryResult = mysql_query($strQuery, $dbResource);
-        $numResults = mysql_num_rows($queryResult);
-        if ($numResults>0)
+        if (PactoDBQuery::playerExist($playerName,$dbResource))
         {
-            $strQuery = PactoSQLQueryParser::DeletePlayer($playerName);
+            $strQuery = PactoSQLQueryParser::deletePlayer($playerName);
             mysql_query($strQuery, $dbResource);
             $response = 'true';
         }
-        PactoDBQuery::CloseDatabaseConnection($dbResource);
+        PactoDBQuery::closeDatabaseConnection($dbResource);
         return $response;
+    }
+
+    private static function playerExist($playerName, $dbResource) {
+        $response = false;
+        $strQuery = PactoSQLQueryParser::selectPlayerByName($playerName);
+        $queryResult = mysql_query($strQuery, $dbResource);
+        $numResults = mysql_num_rows($queryResult);
+        if ($numResults > 0) {
+            $response = true;
+        }
+
+        return $response;
+    }
+
+    public static function savePlayerScore($playerName, $level, $score) {
+        // Seleccionar el jugador
+        // Seleccionar el id de la fila
+        // Crear la fecha? MySQL o PHP?
+        // Crear el registro
     }
 }
