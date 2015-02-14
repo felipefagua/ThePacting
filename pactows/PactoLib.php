@@ -5,7 +5,7 @@
  * Date: 19/12/2014
  * Time: 9:10
  */
-include("../pactodb/PactoDBQuerys.php");
+include("../pactodb/PactoDBQuery.php");
 include("../pactodb/PactoSQLQueryParser.php");
 
 class PactoLib {
@@ -25,7 +25,7 @@ class PactoLib {
             $row = mysql_fetch_row($result);
             $keys = array("playerId","playerName","playerPassword");
             $values = array($row[0],$row[1],$row[2]);
-            $arrResult[$i] = PactoLib::ParseKeyValueArray($keys,$values);
+            $arrResult[$i] = PactoLib::parseKeyValueArray($keys,$values);
         }
 
         return $arrResult;
@@ -36,7 +36,7 @@ class PactoLib {
         $row = mysql_fetch_row($result);
         $keys = array("playerId","playerName","playerPassword");
         $values = array($row[0],$row[1],$row[2]);
-        $arrResult = PactoLib::ParseKeyValueArray($keys, $values);
+        $arrResult = PactoLib::parseKeyValueArray($keys, $values);
         return $arrResult;
     }
 
@@ -50,9 +50,58 @@ class PactoLib {
         return array("result" => $result);
     }
 
+    //Player score's CRUD
+    public function savePlayerScore($playerName, $levelName, $score) {
+        $result = PactoDBQuery::savePlayerScore($playerName, $levelName, $score);
+        return array("result" => $result);
+    }
+
+    public function getPlayerScoreByLevel($playerName, $levelName){
+        $result = PactoDBQuery::getPlayerScoreByLevel($playerName, $levelName);
+        return array("result" => $result);
+    }
+
+    public function getPlayerScores($playerName){
+        $result = PactoDBQuery::getPlayerScores($playerName);
+        if ($result != 'false') {
+            $numResults =  mysql_num_rows($result);
+            $arrResult = array();
+
+            for ($i = 0; $i<$numResults; $i++) {
+                $row = mysql_fetch_row($result);
+                $keys = array("userId","level","score");
+                $values = array($row[0],$row[1],$row[2]);
+                $arrResult[$i] = PactoLib::parseKeyValueArray($keys,$values);
+            }
+            return $arrResult;
+        }
+        else
+            return array("result"=>$result);
+    }
+
+    public function deletePlayerScore($playerName){
+        $result = PactoDBQuery::deletePlayerScores($playerName);
+        return array("result" => $result);
+    }
+
+    //Player progress's CRUD
+    public function savePlayerProgress($playerName, $levelName) {
+        $result = PactoDBQuery::savePlayerProgress($playerName,$levelName);
+        return array("result" => $result);
+    }
+
+    public function getPlayerProgress($playerName) {
+        $result = PactoDBQuery::getPlayerProgress($playerName);
+        return array("result" => $result);
+    }
+
+    public function deletePlayerProgress($playerName) {
+        $result = PactoDBQuery::deletePlayerProgress($playerName);
+        return array("result" => $result);
+    }
 
     //Util
-    private static function ParseKeyValueArray($keysArray, $valuesArray) {
+    private static function parseKeyValueArray($keysArray, $valuesArray) {
         $keyValueArray = array();
         $m = min(count($keysArray), count($valuesArray));
 

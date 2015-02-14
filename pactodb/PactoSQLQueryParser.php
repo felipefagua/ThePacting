@@ -49,24 +49,75 @@ class PactoSQLQueryParser {
         return $strQuery;
     }
 
-    static public function savePlayerScore($playerId, $levelId, $score, $scoreTimeStamp) {
+    static public function insertPlayerScore($playerId, $levelId, $score, $scoreTimeStamp) {
         $strQuery = 'INSERT INTO scores (userid, levelid, score, scoreTimeStamp)
-                    VALUES ('.$playerId.', '.$levelId.', '.$score.', \''.$scoreTimeStamp.'\');';
+                      VALUES ('.$playerId.', '.$levelId.', '.$score.', \''.$scoreTimeStamp.'\');';
+        return $strQuery;
+    }
+
+    static public function updatePlayerScore($playerId, $levelId, $score, $scoreTimeStamp) {
+        $strQuery = 'UPDATE scores
+                      SET scores.score = '.$score.',
+                          scores.scoreTimeStamp = \''.$scoreTimeStamp.'\'
+                      WHERE scores.userid = '.$playerId.'
+                        AND scores.levelid = '.$levelId.'
+                        AND scores.score < '.$score.';';
+        return $strQuery;
+    }
+
+    static public function selectPlayerScore($playerId, $levelId){
+        $strQuery = 'SELECT scores.score
+                      FROM scores
+                      WHERE scores.userid = '.$playerId.'
+                        AND scores.levelid = '.$levelId.';';
+        return $strQuery;
+    }
+
+    static public function selectPLayerScores($playerId) {
+        $strQuery = 'SELECT scores.userid, levels.levelname, scores.score
+                      FROM scores, levels
+                      WHERE scores.userid = '.$playerId.'
+                        AND scores.levelid = levels.levelid
+                      ORDER BY levels.levelname;';
+        return $strQuery;
+    }
+
+    static public function deletePlayerScore($playerId) {
+        $strQuery = 'DELETE scores
+                      FROM scores
+                      WHERE scores.userid = '.$playerId.';';
         return $strQuery;
     }
 
     static public function selectLevelById($levelId) {
+        $strQuery = 'SELECT *
+                      FROM levels
+                      WHERE levels.levelid = '.$levelId.';';
+        return $strQuery;
+    }
+
+    static public function selectLevelByName($levelName) {
         $strQuery = 'select *
                       from levels
-                      where levels.levelid = '.$levelId.';';
+                      where levels.levelname = \''.$levelName.'\';';
         return $strQuery;
     }
 
     static public function selectPlayerProgress($playerId) {
-        $strQuery = 'select player_progress.levelid
-                      from players, player_progress
-                      where players.playerid = player_progress.playerid
-                        and players.playername = \''.$playerId.'\';';
+        $strQuery = 'SELECT levels.levelname
+                      FROM players, player_progress, levels
+                      WHERE players.playerid = player_progress.playerid
+                        AND levels.levelid = player_progress.levelid
+                        AND players.playerid = \''.$playerId.'\';';
+        return $strQuery;
+    }
+
+    static public function selectPlayerProgressByName($playerName) {
+        $strQuery = 'SELECT levels.levelname
+                      FROM players, player_progress, levels
+                      WHERE players.playerid = player_progress.playerid
+                        AND levels.levelid = player_progress.levelid
+                        AND players.playername = \''.$playerName.'\';';
         return $strQuery;
     }
 
@@ -80,6 +131,14 @@ class PactoSQLQueryParser {
         $strQuery = 'UPDATE player_progress
                       SET player_progress.levelid = '.$levelId.'
                       WHERE player_progress.playerid = '.$playerId.';';
+        return $strQuery;
+    }
+
+    static public function deletePlayerProgress($playerName) {
+        $strQuery = 'DELETE player_progress
+                      FROM player_progress, players
+                      WHERE players.playername = \''.$playerName.'\'
+                      AND player_progress.playerId = players.playerId';
         return $strQuery;
     }
 

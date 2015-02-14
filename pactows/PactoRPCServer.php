@@ -38,7 +38,45 @@ if (isset($_GET['action'])) {
                 filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING)
             );
             break;
-
+        case "savePlayerScore":
+            $data = $lib->savePlayerScore(
+                filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING),
+                filter_input(INPUT_GET, 'levelName', FILTER_SANITIZE_STRING),
+                filter_input(INPUT_GET, 'score', FILTER_SANITIZE_STRING)
+            );
+            break;
+        case "deletePlayerScores":
+            $data = $lib->deletePlayerScore(
+                filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING)
+            );
+            break;
+        case "getPlayerScoreByLevel":
+            $data = $lib->getPlayerScoreByLevel(
+                filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING),
+                filter_input(INPUT_GET, 'levelName', FILTER_SANITIZE_STRING)
+            );
+            break;
+        case "getPlayerScores":
+            $data = $lib->getPlayerScores(
+                filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING)
+            );
+            break;
+        case "savePlayerProgress":
+            $data = $lib->savePlayerProgress(
+                filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING),
+                filter_input(INPUT_GET, 'levelName', FILTER_SANITIZE_STRING)
+            );
+            break;
+        case "getPlayerProgress":
+            $data = $lib->getPlayerProgress(
+                filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING)
+            );
+            break;
+        case "deletePlayerProgress":
+            $data = $lib->deletePlayerProgress(
+                filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING)
+            );
+            break;
         default:
             http_response_code(400);
             $data = array("error" => "bad request");
