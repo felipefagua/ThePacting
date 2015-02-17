@@ -77,6 +77,22 @@ if (isset($_GET['action'])) {
                 filter_input(INPUT_GET, 'playerName', FILTER_SANITIZE_STRING)
             );
             break;
+        case "getScoresByLevel":
+            $data = $lib->getScoresByLevel(
+                filter_input(INPUT_GET, 'levelName', FILTER_SANITIZE_STRING)
+            );
+            break;
+        case "getScoresByLevelFromLastWeek":
+            $data = $lib->getScoresByLevelFromLastWeek(
+                filter_input(INPUT_GET, 'levelName', FILTER_SANITIZE_STRING)
+            );
+            break;
+        case "getTopScoresFromEachLevel":
+            $data = $lib->getTopScoresFromEachLevel();
+            break;
+        case "getTopScoresFromEachLevelFromLastWeek":
+            $data = $lib->getTopScoresFromEachLevelFromLastWeek();
+            break;
         default:
             http_response_code(400);
             $data = array("error" => "bad request");

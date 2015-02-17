@@ -152,7 +152,8 @@ class PactoSQLQueryParser {
     }
 
     static public function selectScoresByLevelBetweenDates($levelId, $startDate, $endDate) {
-        $strQuery = 'SELECT FROM players, scores
+        $strQuery = 'SELECT *
+                      FROM players, scores
                       WHERE players.playerid = scores.userid
                         AND scores.levelid = '.$levelId.'
                         AND (scores.scoretimestamp BETWEEN \''.$startDate.'\' AND \''.$endDate.'\')

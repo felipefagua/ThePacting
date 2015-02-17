@@ -209,6 +209,56 @@ class PactoDBQuery {
         return 'true';
     }
 
+    // Scores
+    public static function getScoresByLevel($levelName){
+        $scores = 'false';
+        $dbResource = PactoDBQuery::getDatabaseConnection();
+        mysql_select_db(PactoDBQuery::$databaseName);
+        if (PactoDBQuery::levelExist($levelName, $dbResource)){
+            $levelId = PactoDBQuery::getLevelId($levelName, $dbResource);
+            $strQuery = PactoSQLQueryParser::selectScoresByLevel($levelId);
+            $scores = mysql_query($strQuery, $dbResource);
+        }
+        PactoDBQuery::closeDatabaseConnection($dbResource);
+        return $scores;
+    }
+
+    public static function getScoresByLevelFromLastWeek($levelName){
+        $scores = 'false';
+        $dbResource = PactoDBQuery::getDatabaseConnection();
+        mysql_select_db(PactoDBQuery::$databaseName);
+        if (PactoDBQuery::levelExist($levelName, $dbResource)){
+            $endDate = PactoDBQuery::getTimeStamp();
+            $startDate = PactoDBQuery::getLastWeekTimeStamp();
+            $levelId = PactoDBQuery::getLevelId($levelName, $dbResource);
+            $strQuery = PactoSQLQueryParser::selectScoresByLevelBetweenDates($levelId, $startDate, $endDate);
+            $scores = mysql_query($strQuery, $dbResource);
+        }
+        PactoDBQuery::closeDatabaseConnection($dbResource);
+        return $scores;
+    }
+
+    public static function getTopScoresFromEachLevel() {
+        $dbResource = PactoDBQuery::getDatabaseConnection();
+        mysql_select_db(PactoDBQuery::$databaseName);
+        $strQuery = PactoSQLQueryParser::selectTopScoresFromEachLevel();
+        $scores = mysql_query($strQuery, $dbResource);
+        PactoDBQuery::closeDatabaseConnection($dbResource);
+        return $scores;
+    }
+
+    public static function selectTopScoresFromEachLevelFromLastWeek() {
+        $endDate = PactoDBQuery::getTimeStamp();
+        $startDate = PactoDBQuery::getLastWeekTimeStamp();
+        $dbResource = PactoDBQuery::getDatabaseConnection();
+        mysql_select_db(PactoDBQuery::$databaseName);
+        $strQuery = PactoSQLQueryParser::selectTopScoresFromEachLevelBetweenDates($startDate, $endDate);
+        $scores = mysql_query($strQuery, $dbResource);
+        PactoDBQuery::closeDatabaseConnection($dbResource);
+        return $scores;
+    }
+
+    // Util
     private static function playerProgressExist($playerId, $dbResource) {
         $playerExist = false;
         $strQuery = PactoSQLQueryParser::selectPlayerProgress($playerId);
@@ -284,6 +334,13 @@ class PactoDBQuery {
         if ($dbResource==null)
             PactoDBQuery::closeDatabaseConnection($dbResource);
         return $queryResult;
+    }
+
+    private static function getLastWeekTimeStamp() {
+        $timeStamp = time();
+        $timeStamp -= (7 * 24 * 60 * 60);
+        $format = "Y-m-d G:i:s";
+        return date($format, $timeStamp);
     }
 
     private static function getTimeStamp() {

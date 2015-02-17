@@ -24,13 +24,13 @@
     <favorites_list name="ThePacting" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.36510417">
+    <splitter split-orientation="horizontal" split-proportion="0.46614584">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-12.269231" vertical-offset="1160" max-vertical-offset="2040">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1160" max-vertical-offset="2040">
                   <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
                   <folding />
                 </state>
@@ -40,8 +40,8 @@
           <file leaf-file-name="PactoRPCServer.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pactows/PactoRPCServer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.418813" vertical-offset="0" max-vertical-offset="893">
-                  <caret line="52" column="35" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="35" />
+                <state vertical-scroll-proportion="0.60918254" vertical-offset="0" max-vertical-offset="893">
+                  <caret line="92" column="51" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="51" />
                   <folding>
                     <element signature="e#351#606#0#PHP" expanded="false" />
                     <element signature="e#615#700#0#PHP" expanded="false" />
@@ -50,10 +50,14 @@
                     <element signature="e#1148#1320#0#PHP" expanded="false" />
                     <element signature="e#1329#1659#0#PHP" expanded="false" />
                     <element signature="e#1668#1851#0#PHP" expanded="false" />
+                    <element signature="e#1860#2128#0#PHP" expanded="false" />
+                    <element signature="e#2137#2315#0#PHP" expanded="false" />
                     <element signature="e#2324#2586#0#PHP" expanded="false" />
                     <element signature="e#2595#2777#0#PHP" expanded="false" />
                     <element signature="e#2786#2974#0#PHP" expanded="false" />
-                    <element signature="e#2983#3081#0#PHP" expanded="false" />
+                    <element signature="e#2983#3162#0#PHP" expanded="false" />
+                    <element signature="e#3171#3374#0#PHP" expanded="false" />
+                    <element signature="e#3639#3737#0#PHP" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -62,8 +66,8 @@
           <file leaf-file-name="PactoSQLQueryParser.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pactodb/PactoSQLQueryParser.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-20.307692" vertical-offset="101" max-vertical-offset="1173">
-                  <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+                <state vertical-scroll-proportion="-18.615385" vertical-offset="468" max-vertical-offset="1411">
+                  <caret line="170" column="76" selection-start-line="170" selection-start-column="76" selection-end-line="170" selection-end-column="76" />
                   <folding>
                     <element signature="e#6#88#0#PHP" expanded="true" />
                     <element signature="n#selectPlayerByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -75,6 +79,7 @@
                     <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
                     <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
                     <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+                    <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
                     <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
                     <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
                     <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -85,34 +90,32 @@
                     <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
                     <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
                     <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-                    <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-                    <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
                     <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
                     <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-                    <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-                    <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-                    <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-                    <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-                    <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-                    <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-                    <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-                    <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-                    <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-                    <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-                    <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-                    <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-                    <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-                    <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-                    <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-                    <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-                    <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-                    <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-                    <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-                    <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-                    <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-                    <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-                    <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-                    <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+                    <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+                    <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+                    <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+                    <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+                    <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+                    <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+                    <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+                    <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+                    <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+                    <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+                    <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+                    <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+                    <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+                    <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+                    <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+                    <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+                    <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+                    <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+                    <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+                    <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+                    <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+                    <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+                    <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+                    <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
                   </folding>
                 </state>
               </provider>
@@ -122,40 +125,48 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="PactoLib.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PactoLib.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pactows/PactoLib.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.39641657" vertical-offset="207" max-vertical-offset="1530">
-                  <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+                <state vertical-scroll-proportion="-21.26923" vertical-offset="1385" max-vertical-offset="2397">
+                  <caret line="161" column="72" selection-start-line="161" selection-start-column="72" selection-end-line="161" selection-end-column="72" />
                   <folding>
                     <element signature="n#createPlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
+                    <element signature="n#getPlayersList#0;n#PactoLib#0;n#!!top" expanded="false" />
                     <element signature="n#getPlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
                     <element signature="n#updatePlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
                     <element signature="n#deletePlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
                     <element signature="n#savePlayerScore#0;n#PactoLib#0;n#!!top" expanded="false" />
                     <element signature="n#getPlayerScoreByLevel#0;n#PactoLib#0;n#!!top" expanded="false" />
+                    <element signature="n#deletePlayerScore#0;n#PactoLib#0;n#!!top" expanded="false" />
                     <element signature="n#savePlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
                     <element signature="n#getPlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
                     <element signature="n#deletePlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
+                    <element signature="n#parseKeyValueArray#0;n#PactoLib#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PactoDBQuery.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="PactoDBQuery.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pactodb/PactoDBQuery.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-18.961538" vertical-offset="306" max-vertical-offset="3417">
-                  <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+                <state vertical-scroll-proportion="0.6013438" vertical-offset="1180" max-vertical-offset="3536">
+                  <caret line="249" column="34" selection-start-line="249" selection-start-column="34" selection-end-line="249" selection-end-column="34" />
                   <folding>
                     <element signature="n#getDatabaseConnection#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
                     <element signature="n#closeDatabaseConnection#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
                     <element signature="n#createPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
                     <element signature="n#getPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+                    <element signature="n#getPlayersList#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
                     <element signature="n#updatePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
                     <element signature="n#deletePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-                    <element signature="n#savePlayerScore#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
                     <element signature="n#getPlayerScoreByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+                    <element signature="n#getPlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+                    <element signature="n#deletePlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+                    <element signature="n#savePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+                    <element signature="n#deletePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+                    <element signature="n#getScoresByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -183,10 +194,10 @@
         <option value="$PROJECT_DIR$/data/config/server_config.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pactodb/PactoDBQuerys.php" />
-        <option value="$PROJECT_DIR$/pactows/PactoRPCServer.php" />
         <option value="$PROJECT_DIR$/pactodb/PactoSQLQueryParser.php" />
-        <option value="$PROJECT_DIR$/pactodb/PactoDBQuery.php" />
+        <option value="$PROJECT_DIR$/pactows/PactoRPCServer.php" />
         <option value="$PROJECT_DIR$/pactows/PactoLib.php" />
+        <option value="$PROJECT_DIR$/pactodb/PactoDBQuery.php" />
       </list>
     </option>
   </component>
@@ -211,7 +222,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -222,43 +233,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThePacting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThePacting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThePacting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThePacting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThePacting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pactodb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -354,7 +329,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -421,7 +396,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="51" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -435,10 +410,15 @@
             <element signature="n#closeDatabaseConnection#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#createPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#getPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayersList#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#savePlayerScore#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#getPlayerScoreByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#savePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getScoresByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -455,10 +435,14 @@
             <element signature="e#1148#1320#0#PHP" expanded="false" />
             <element signature="e#1329#1659#0#PHP" expanded="false" />
             <element signature="e#1668#1851#0#PHP" expanded="false" />
+            <element signature="e#1860#2128#0#PHP" expanded="false" />
+            <element signature="e#2137#2315#0#PHP" expanded="false" />
             <element signature="e#2324#2586#0#PHP" expanded="false" />
             <element signature="e#2595#2777#0#PHP" expanded="false" />
             <element signature="e#2786#2974#0#PHP" expanded="false" />
-            <element signature="e#2983#3081#0#PHP" expanded="false" />
+            <element signature="e#2983#3162#0#PHP" expanded="false" />
+            <element signature="e#3171#3374#0#PHP" expanded="false" />
+            <element signature="e#3639#3737#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -469,14 +453,17 @@
           <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
           <folding>
             <element signature="n#createPlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayersList#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#getPlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#savePlayerScore#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#getPlayerScoreByLevel#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerScore#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#savePlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#getPlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#parseKeyValueArray#0;n#PactoLib#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -496,6 +483,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -506,34 +494,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -555,10 +541,15 @@
             <element signature="n#closeDatabaseConnection#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#createPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#getPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayersList#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#savePlayerScore#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#getPlayerScoreByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#savePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getScoresByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -575,10 +566,14 @@
             <element signature="e#1148#1320#0#PHP" expanded="false" />
             <element signature="e#1329#1659#0#PHP" expanded="false" />
             <element signature="e#1668#1851#0#PHP" expanded="false" />
+            <element signature="e#1860#2128#0#PHP" expanded="false" />
+            <element signature="e#2137#2315#0#PHP" expanded="false" />
             <element signature="e#2324#2586#0#PHP" expanded="false" />
             <element signature="e#2595#2777#0#PHP" expanded="false" />
             <element signature="e#2786#2974#0#PHP" expanded="false" />
-            <element signature="e#2983#3081#0#PHP" expanded="false" />
+            <element signature="e#2983#3162#0#PHP" expanded="false" />
+            <element signature="e#3171#3374#0#PHP" expanded="false" />
+            <element signature="e#3639#3737#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -605,6 +600,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -615,34 +611,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -653,14 +647,17 @@
           <caret line="48" column="35" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="44" />
           <folding>
             <element signature="n#createPlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayersList#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#getPlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#savePlayerScore#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#getPlayerScoreByLevel#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerScore#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#savePlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#getPlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#parseKeyValueArray#0;n#PactoLib#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -682,10 +679,15 @@
             <element signature="n#closeDatabaseConnection#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#createPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#getPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayersList#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#savePlayerScore#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#getPlayerScoreByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#savePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getScoresByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -712,6 +714,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -722,34 +725,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -771,10 +772,15 @@
             <element signature="n#closeDatabaseConnection#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#createPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#getPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayersList#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#savePlayerScore#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#getPlayerScoreByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#savePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getScoresByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -801,6 +807,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -811,34 +818,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -852,10 +857,15 @@
             <element signature="n#closeDatabaseConnection#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#createPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#getPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayersList#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#savePlayerScore#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
             <element signature="n#getPlayerScoreByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#savePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getScoresByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -875,6 +885,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -885,34 +896,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -932,6 +941,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -942,34 +952,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -989,6 +997,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -999,34 +1008,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -1046,6 +1053,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -1056,34 +1064,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -1117,6 +1123,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -1127,34 +1134,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -1195,6 +1200,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -1205,34 +1211,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -1273,6 +1277,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -1283,34 +1288,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -1351,6 +1354,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -1361,34 +1365,32 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
           </folding>
         </state>
       </provider>
@@ -1451,33 +1453,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.269231" vertical-offset="1160" max-vertical-offset="2040">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1160" max-vertical-offset="2040">
           <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pactodb/PactoDBQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538" vertical-offset="306" max-vertical-offset="3417">
-          <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
-          <folding>
-            <element signature="n#getDatabaseConnection#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#closeDatabaseConnection#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#createPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#getPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#updatePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#deletePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#savePlayerScore#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-            <element signature="n#getPlayerScoreByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pactodb/PactoSQLQueryParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.307692" vertical-offset="101" max-vertical-offset="1173">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state vertical-scroll-proportion="-18.615385" vertical-offset="468" max-vertical-offset="1411">
+          <caret line="170" column="76" selection-start-line="170" selection-start-column="76" selection-end-line="170" selection-end-column="76" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
             <element signature="n#selectPlayerByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -1489,6 +1474,7 @@
             <element signature="n#insertPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#updatePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectPlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
+            <element signature="n#selectPLayerScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#deletePlayerScore#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelById#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelByName#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
@@ -1499,42 +1485,83 @@
             <element signature="n#deletePlayerProgress#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectScoresByLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevel#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <element signature="n#selectTopScoresFromEachLevelBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScores#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
             <element signature="n#selectLevelTopScoresBetweenDates#0;n#PactoSQLQueryParser#0;n#!!top" expanded="false" />
-            <marker date="1423924367232" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
-            <marker date="1423924367232" expanded="true" signature="828:952" placeholder="insert into ..." />
-            <marker date="1423924367232" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
-            <marker date="1423924367232" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
-            <marker date="1423924367232" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
-            <marker date="1423924367232" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
-            <marker date="1423924367232" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
-            <marker date="1423924367232" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
-            <marker date="1423924367232" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
-            <marker date="1423924367232" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
-            <marker date="1423924367232" expanded="true" signature="5798:6093" placeholder="SELECT FROM players..." />
-            <marker date="1423924367232" expanded="true" signature="6211:6677" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6487:6630" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="6827:7386" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7103:7246" placeholder="SELECT MAX(s..scores..." />
-            <marker date="1423924367232" expanded="true" signature="7504:7960" placeholder="SELECT level..scores..." />
-            <marker date="1423924367232" expanded="true" signature="8112:8661" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="200:312" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="425:552" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="655:698" placeholder="SELECT * FRO..players..." />
+            <marker date="1424213629675" expanded="true" signature="828:952" placeholder="insert into ..." />
+            <marker date="1424213629675" expanded="true" signature="1101:1332" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="1445:1533" placeholder="DELETE FROM ..." />
+            <marker date="1424213629675" expanded="true" signature="1684:1839" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="1990:2290" placeholder="UPDATE score..." />
+            <marker date="1424213629675" expanded="true" signature="2425:2582" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="2711:2971" placeholder="SELECT score..scores..." />
+            <marker date="1424213629675" expanded="true" signature="3305:3393" placeholder="SELECT * FRO..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3522:3630" placeholder="select * fro..levels..." />
+            <marker date="1424213629675" expanded="true" signature="3749:4038" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4165:4458" placeholder="SELECT level..players..." />
+            <marker date="1424213629675" expanded="true" signature="4587:4673" placeholder="INSERT INTO ..." />
+            <marker date="1424213629675" expanded="true" signature="4802:4945" placeholder="UPDATE playe..." />
+            <marker date="1424213629675" expanded="true" signature="5408:5648" placeholder="SELECT playe..players..." />
+            <marker date="1424213629675" expanded="true" signature="5798:6117" placeholder="SELECT FROM players..." />
+            <marker date="1424213629675" expanded="true" signature="6235:6701" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6511:6654" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="6851:7410" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7127:7270" placeholder="SELECT MAX(s..scores..." />
+            <marker date="1424213629675" expanded="true" signature="7528:7984" placeholder="SELECT level..scores..." />
+            <marker date="1424213629675" expanded="true" signature="8136:8685" placeholder="SELECT level..scores..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pactows/PactoLib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.26923" vertical-offset="1385" max-vertical-offset="2397">
+          <caret line="161" column="72" selection-start-line="161" selection-start-column="72" selection-end-line="161" selection-end-column="72" />
+          <folding>
+            <element signature="n#createPlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayersList#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#updatePlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#savePlayerScore#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerScoreByLevel#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerScore#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#savePlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="n#parseKeyValueArray#0;n#PactoLib#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pactodb/PactoDBQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6013438" vertical-offset="1180" max-vertical-offset="3536">
+          <caret line="249" column="34" selection-start-line="249" selection-start-column="34" selection-end-line="249" selection-end-column="34" />
+          <folding>
+            <element signature="n#getDatabaseConnection#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#closeDatabaseConnection#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#createPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayersList#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#updatePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayer#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerScoreByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerScores#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#savePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#deletePlayerProgress#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
+            <element signature="n#getScoresByLevel#0;n#PactoDBQuery#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pactows/PactoRPCServer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.418813" vertical-offset="0" max-vertical-offset="893">
-          <caret line="52" column="35" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.60918254" vertical-offset="0" max-vertical-offset="893">
+          <caret line="92" column="51" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="51" />
           <folding>
             <element signature="e#351#606#0#PHP" expanded="false" />
             <element signature="e#615#700#0#PHP" expanded="false" />
@@ -1543,28 +1570,14 @@
             <element signature="e#1148#1320#0#PHP" expanded="false" />
             <element signature="e#1329#1659#0#PHP" expanded="false" />
             <element signature="e#1668#1851#0#PHP" expanded="false" />
+            <element signature="e#1860#2128#0#PHP" expanded="false" />
+            <element signature="e#2137#2315#0#PHP" expanded="false" />
             <element signature="e#2324#2586#0#PHP" expanded="false" />
             <element signature="e#2595#2777#0#PHP" expanded="false" />
             <element signature="e#2786#2974#0#PHP" expanded="false" />
-            <element signature="e#2983#3081#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pactows/PactoLib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39641657" vertical-offset="207" max-vertical-offset="1530">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="n#createPlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
-            <element signature="n#getPlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
-            <element signature="n#updatePlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
-            <element signature="n#deletePlayer#0;n#PactoLib#0;n#!!top" expanded="false" />
-            <element signature="n#savePlayerScore#0;n#PactoLib#0;n#!!top" expanded="false" />
-            <element signature="n#getPlayerScoreByLevel#0;n#PactoLib#0;n#!!top" expanded="false" />
-            <element signature="n#savePlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
-            <element signature="n#getPlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
-            <element signature="n#deletePlayerProgress#0;n#PactoLib#0;n#!!top" expanded="false" />
+            <element signature="e#2983#3162#0#PHP" expanded="false" />
+            <element signature="e#3171#3374#0#PHP" expanded="false" />
+            <element signature="e#3639#3737#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>

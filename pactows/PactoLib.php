@@ -50,7 +50,7 @@ class PactoLib {
         return array("result" => $result);
     }
 
-    //Player score's CRUD
+    // Player score's CRUD
     public function savePlayerScore($playerName, $levelName, $score) {
         $result = PactoDBQuery::savePlayerScore($playerName, $levelName, $score);
         return array("result" => $result);
@@ -84,7 +84,7 @@ class PactoLib {
         return array("result" => $result);
     }
 
-    //Player progress's CRUD
+    // Player progress's CRUD
     public function savePlayerProgress($playerName, $levelName) {
         $result = PactoDBQuery::savePlayerProgress($playerName,$levelName);
         return array("result" => $result);
@@ -99,6 +99,84 @@ class PactoLib {
         $result = PactoDBQuery::deletePlayerProgress($playerName);
         return array("result" => $result);
     }
+
+    // Socres
+
+    public function getScoresByLevel($levelName) {
+        $result = PactoDBQuery::getScoresByLevel($levelName);
+        if ($result != 'false') {
+            $numResults =  mysql_num_rows($result);
+            $arrResult = array();
+
+            for ($i = 0; $i<$numResults; $i++) {
+                $row = mysql_fetch_row($result);
+                $keys = array("playerName", "playerScore");
+                $values = array($row[0],$row[1]);
+                $arrResult[$i] = PactoLib::parseKeyValueArray($keys,$values);
+            }
+            return $arrResult;
+        }
+        else
+            return array("result"=>$result);
+    }
+
+    public function getScoresByLevelFromLastWeek($levelName) {
+        $result = PactoDBQuery::getScoresByLevelFromLastWeek($levelName);
+
+        if ($result != 'false') {
+            $numResults =  mysql_num_rows($result);
+            $arrResult = array();
+
+            for ($i = 0; $i<$numResults; $i++) {
+                $row = mysql_fetch_row($result);
+                $keys = array("playerName", "playerScore");
+                $values = array($row[0],$row[1]);
+                $arrResult[$i] = PactoLib::parseKeyValueArray($keys,$values);
+            }
+            return $arrResult;
+        }
+        else
+            return array("result"=>$result);
+    }
+
+    public function getTopScoresFromEachLevel() {
+        $result = PactoDBQuery::getTopScoresFromEachLevel();
+
+        if ($result != 'false') {
+            $numResults =  mysql_num_rows($result);
+            $arrResult = array();
+
+            for ($i = 0; $i<$numResults; $i++) {
+                $row = mysql_fetch_row($result);
+                $keys = array("levelId", "levelName", "playerName", "playerScore");
+                $values = array($row[0],$row[1],$row[2],$row[3]);
+                $arrResult[$i] = PactoLib::parseKeyValueArray($keys,$values);
+            }
+            return $arrResult;
+        }
+        else
+            return array("result"=>$result);
+    }
+
+    public function getTopScoresFromEachLevelFromLastWeek() {
+        $result = PactoDBQuery::selectTopScoresFromEachLevelFromLastWeek();
+
+        if ($result != 'false') {
+            $numResults =  mysql_num_rows($result);
+            $arrResult = array();
+
+            for ($i = 0; $i<$numResults; $i++) {
+                $row = mysql_fetch_row($result);
+                $keys = array("levelId", "levelName", "playerName", "playerScore");
+                $values = array($row[0],$row[1],$row[2],$row[3]);
+                $arrResult[$i] = PactoLib::parseKeyValueArray($keys,$values);
+            }
+            return $arrResult;
+        }
+        else
+            return array("result"=>$result);
+    }
+
 
     //Util
     private static function parseKeyValueArray($keysArray, $valuesArray) {
